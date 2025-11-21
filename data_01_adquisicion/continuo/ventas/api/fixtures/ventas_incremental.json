@@ -1,0 +1,93 @@
+{
+  "orders": [
+    {
+      "order_id": "O-1004",
+      "customer_id": "C001",
+      "order_date": "2024-04-05",
+      "status": "completed",
+      "currency": "CLP",
+      "total_amount": 49990,
+      "updated_at": "2024-04-05T12:00:00Z"
+    },
+    {
+      "order_id": "O-1005",
+      "customer_id": "C002",
+      "order_date": "2024-04-05",
+      "status": "processing",
+      "currency": "CLP",
+      "total_amount": 69990,
+      "updated_at": "2024-04-05T12:10:00Z"
+    }
+  ],
+  "order_items": [
+    {
+      "order_id": "O-1004",
+      "line_number": 1,
+      "sku": "SKU-1003",
+      "quantity": 1,
+      "unit_price": 9990,
+      "currency": "CLP",
+      "updated_at": "2024-04-05T12:00:00Z"
+    },
+    {
+      "order_id": "O-1004",
+      "line_number": 2,
+      "sku": "SKU-1002",
+      "quantity": 1,
+      "unit_price": 40000,
+      "currency": "CLP",
+      "updated_at": "2024-04-05T12:00:00Z"
+    },
+    {
+      "order_id": "O-1005",
+      "line_number": 1,
+      "sku": "SKU-1001",
+      "quantity": 1,
+      "unit_price": 69990,
+      "currency": "CLP",
+      "updated_at": "2024-04-05T12:10:00Z"
+    }
+  ],
+  "payments": [
+    {
+      "payment_id": "P-2001",
+      "order_id": "O-1004",
+      "method": "credit_card",
+      "status": "paid",
+      "amount": 49990,
+      "currency": "CLP",
+      "paid_at": "2024-04-05T12:01:00Z",
+      "updated_at": "2024-04-05T12:01:00Z"
+    },
+    {
+      "payment_id": "P-2002",
+      "order_id": "O-1005",
+      "method": "credit_card",
+      "status": "authorized",
+      "amount": 69990,
+      "currency": "CLP",
+      "paid_at": null,
+      "updated_at": "2024-04-05T12:11:00Z"
+    }
+  ],
+  "inventory": [
+    {
+      "sku": "SKU-1001",
+      "warehouse": "WH-SCL",
+      "stock": 12,
+      "updated_at": "2024-04-05T11:50:00Z"
+    },
+    {
+      "sku": "SKU-1002",
+      "warehouse": "WH-SCL",
+      "stock": 5,
+      "updated_at": "2024-04-05T11:55:00Z"
+    },
+    {
+      "sku": "SKU-1003",
+      "warehouse": "WH-SCL",
+      "stock": 30,
+      "updated_at": "2024-04-05T12:05:00Z"
+    }
+  ]
+}

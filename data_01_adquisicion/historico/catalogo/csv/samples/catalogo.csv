@@ -1,0 +1,5 @@
+sku,nombre,categoria,precio,moneda,activo,actualizado_en
+SKU-1001,Zapatilla Trail Hombre,Calzado,69990,CLP,1,2024-04-01
+SKU-1002,Chaqueta Impermeable Mujer,Ropa,84990,CLP,1,2024-04-02
+SKU-1003,Botella Deportiva 1L,Accesorios,9990,CLP,1,2024-04-03
+SKU-2001,Polera Algodón Unisex,Ropa,12990,CLP,0,2024-03-20

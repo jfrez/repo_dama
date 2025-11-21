@@ -1,0 +1,4 @@
+order_id,customer_id,order_date,status,currency,total_amount,updated_at
+O-1001,C001,2024-03-15,completed,CLP,159970,2024-03-16T10:00:00Z
+O-1002,C002,2024-03-18,completed,CLP,84990,2024-03-18T12:00:00Z
+O-1003,C003,2024-03-20,cancelled,CLP,12990,2024-03-21T09:00:00Z
